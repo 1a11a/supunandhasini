@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="containerr">
+    <!-- Invitation Header -->
+    <h1>Welcome to the celebration of our wedding</h1>
+    <h2 class="couple-names">Supun <span>&</span> Hasini</h2>
+    
+    <!-- Wedding Date and Time -->
+    <div class="wedding-info">
+      <p>2025 JANUARY <span class="date">15</span></p>
+      <p><span class="day">WEDNESDAY</span> <span class="time">8:00 A.M.</span></p>
+
+    </div>
+
+    <!-- Countdown Timer -->
+    <div class="countdown">
+      <div class="time-unit"><span id="days"></span><p>Days</p></div>
+      <div class="time-unit"><span id="hours"></span><p>Hours</p></div>
+      <div class="time-unit"><span id="minutes"></span><p>Minutes</p></div>
+      <div class="time-unit"><span id="seconds"></span><p>Seconds</p></div>
+    </div>
+
+    <!-- Wedding Events Timeline -->
+    <h1>Our Wedding Day Plan</h1>
+    <p >We Hope You have a Great Time</p>
+    <div class="timeline">
+    
+        <div class="container left">
+          <div class="content cleft">
+            <h4>8.00 AM</h4>
+            <p>Ceremony</p>
+            <p>St. Joseph's Church - Wennappuwa</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content cright">
+            <h4>9.30 AM Onwords</h4>
+            <p>Tea table</p>
+            <p>ORION Hall, Kumudu Valley Resort, Nainamadama </p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content cleft">
+            <h4>11.31 AM Onwords</h4>
+            <p>Poruwa</p>
+            <p>Olympus Hall, Kumudu Valley Resort, Nainamadama </p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content cright">
+            <h4>12.00 PM</h4>
+            <p>Party</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div class="content cleft">
+            <h4>1.30 PM</h4>
+            <p>Lunch</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div class="content cright">
+            <h4>3.32</h4>
+            <p>Recessional</p>
+          </div>
+        </div>
+      </div>
+      
+    <!-- Venue Information -->
+    <div class="venues">
+      <div class="venue">
+        <i class="fas fa-map-marker-alt"></i>
+        <h4>CEREMONY</h4>
+        <p>St. Joseph's Church - Wennappuwa</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.1353686268588!2d79.84154993047962!3d7.340095313448252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2c21767000001%3A0x6b506e02a694495a!2zU3QuIEpvc2VwaCdzIENodXJjaCAtIFdlbm5hcHB1d2EgfCDgt4Hgt5QuIOC2ouC3lOC3g-C3miDgtrjgt5TgtrHgt5Lgtq_gt5TgtrHgt4rgtpzgt5og4Lav4Lea4LeA4LeD4LeK4Lau4LeP4Lax4La6IC0g4LeA4LeZ4Lax4LeK4Lax4La04LeK4La04LeU4LeA!5e0!3m2!1sen!2slk!4v1732851176135!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a hidden href="https://goo.gl/maps/example" target="_blank">See Map</a>
+      </div>
+      <div class="venue">
+        <i class="fas fa-glass-cheers"></i>
+        <h4>PORUWA & RECEPTION</h4>
+        <p>Kumudu Valley Resort - Nainamadama</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.428747976675!2d79.83810807568274!3d7.305634113579161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e9f20be5d601%3A0xa8cc15aec3dcce75!2sKumudu%20Valley%20Resort!5e0!3m2!1sen!2slk!4v1732851045422!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a hidden href="https://goo.gl/maps/example" target="_blank">See Map</a>
+      </div>
+    </div>
+
+    <section class="rsvp">
+        <h2>RSVP</h2>
+        <form id="rsvpForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="number" name="attendees" placeholder="Number of Guests" required />
+            <textarea name="message" placeholder="Message (Optional)"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Email : sooryasenasupun@gmail.com</p>
+        <p>Supun : +94 77 008 9194</p>
+        <p>Hasini : +94 77 992 9657</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
