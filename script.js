@@ -22,3 +22,10 @@ const countdown = () => {
 };
 
 const timer = setInterval(countdown, 1000);
+
+const form = document.getElementById('rsvpForm');
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    alert('RSVP Submitted! Thank you.');
+    form.reset();
+});
